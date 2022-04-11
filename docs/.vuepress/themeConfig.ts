@@ -75,11 +75,8 @@ export default defineThemeConfig({
 
     // 你也可以使用 Waline
     comment: {
-      type: "giscus",
-      repo: "yzqdev/blog-issues",
-      repoId: "MDEwOlJlcG9zaXRvcnkzODI2NTY1MTY=",
-      category: "General",
-      categoryId: "DIC_kwDOFs7gBM4COKgn",
+      type: "waline",
+      serverURL: "https://waline-childhood-yzqdev.vercel.app/",
     },
 
     mdEnhance: {
