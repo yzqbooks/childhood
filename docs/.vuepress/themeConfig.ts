@@ -1,8 +1,8 @@
-import { defineThemeConfig } from "vuepress-theme-hope";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
+import {hopeTheme} from "vuepress-theme-hope";
 
-export default defineThemeConfig({
+export default hopeTheme({
   hostname: "https://yzqdev.github.io/childhood",
 
   author: {
