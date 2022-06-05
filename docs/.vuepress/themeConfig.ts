@@ -1,6 +1,6 @@
 import navbar from "./navbar";
 import sidebar from "./sidebar";
-import {hopeTheme} from "vuepress-theme-hope";
+import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
   hostname: "https://yzqdev.github.io/childhood",
@@ -75,7 +75,7 @@ export default hopeTheme({
 
     // 你也可以使用 Waline
     comment: {
-      type: "waline",
+      provider: "Waline",
       serverURL: "https://waline-childhood-yzqdev.vercel.app/",
     },
 
